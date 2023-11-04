@@ -1,0 +1,78 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+    padding-left: 50px;
+    
+}
+/*  */
+.home > h1 {
+    align-self: flex-start;
+}
+/*  */
+.head {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+/*  */
+.head > nav {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+.link {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+/*  */
+.cart {
+    position: relative;
+    width: 100px;
+
+}
+.cart > button {
+    width: 50px;
+    border: none;
+}
+.cart > button:hover {
+    cursor: pointer;
+}
+.cart > div {
+    z-index: 2;
+    position: absolute;
+    top: -5px;
+    left: 48px;
+    font-size: 20px;
+}
+
+/*  */
+.cartPopup {
+    z-index: 2;
+    position: absolute;
+    top: 45px;
+    right: 95px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+.cartPopup .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.title > button:hover {
+    cursor: pointer;
+}
+
+
